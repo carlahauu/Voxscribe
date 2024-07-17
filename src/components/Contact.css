@@ -1,0 +1,99 @@
+.contact-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 49px;
+    z-index: 1;
+    margin-left: 10% ;
+    margin-right: 10%;
+    margin-top: -35px;
+    height: 50vh;
+}
+
+.contact-title{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 33px;
+    color: #fff;
+    text-align: left;
+}
+
+.contact-description{
+    font-size: 15px;
+    color: #fff;
+    margin-top: 20px;
+    font-style: italic;
+    text-align: left;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    text-align: left;
+    color: white;
+}
+
+.contact-right{
+    width: 80%;
+}
+
+.contact-socials{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.contact-content a{
+    color: white;
+}
+
+.contact-content li {
+    margin-bottom: 10px;
+}
+
+.social-icons{
+    color: white;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 830px){
+    .contact-container{
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 100px;
+    }
+
+    .contact-content div{
+        width: 100%;
+        height: fit-content;
+        gap: 5px;
+    }
+
+    .contact-content{
+        display: flex;
+        align-items: center;
+        align-self: center;
+        gap: 0px;
+        flex-direction: row;
+    }
+    .contact-right li{
+        align-self: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact-socials{
+        text-align: center;
+        flex-direction: row;
+    }
+
+    .contact-title{
+        text-align: left;
+        font-size: 25px;
+    }
+
+}
